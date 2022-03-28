@@ -2,7 +2,7 @@
 
 ### Homelab Virtual Environment project
 
-Updates the state of virtual machine guests (eg stopped, restarted) on a ProxmoxVE host
+Changes the state of virtual machine guests (eg stopped, restarted) on a ProxmoxVE host
 
 ## Requirements
 
