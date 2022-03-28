@@ -1,2 +1,12 @@
 ---
-# main tasks for <role name>
+# main tasks for pve_vm_state
+- name: Update ProxmoxVE Virtual Machine State
+  proxmox_kvm:
+    api_user: "{{proxmox_user}}"
+    api_password: "{{proxmox_password}}"
+    api_host: "{{proxmox_host}}"
+    name: "{{vm_name}}"
+    state: "{{vm_state}}"
+    force: yes
+    proxmox_default_behavior: no_defaults
+    validate_certs: no
