@@ -1,8 +1,8 @@
-# Ansible Role: <role name>
+# Ansible Role: pve_vm_state
 
-### <sub-heading>
+### Homelab Virtual Environment project
 
-Description here
+Updates the state of virtual machine guests (eg stopped, restarted) on a ProxmoxVE host
 
 ## Requirements
 
@@ -12,9 +12,13 @@ None
 
 Available variables are listed below, along with default values (see ```defaults/main.yml```)
 ```shell
-variable1:
-variable2:
-...etc
+proxmox_host: 192.168.0.1
+proxmox_user: root@pam
+proxmox_password: password
+vm_guest:
+  - name: vm01
+    state: started
+  - ...etc...
 ```
 ## Dependencies
 
@@ -22,9 +26,9 @@ None
 
 ## Example Playbook
 ```yaml
-    - hosts: all
+    - hosts: localhost
       roles:
-        - <role name>
+        - pve_vm_state
 ```
 
 ## License
