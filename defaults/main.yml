@@ -1,2 +1,13 @@
 ---
-# default variables for <role name>
+# default variables for pve_vm_state
+
+# pve host credentials
+proxmox_host: 192.168.0.1
+proxmox_user: root@pam
+proxmox_password: password
+
+# vm guest variables
+# options for state: present,stopped,started,absent,restarted,current
+vm_guest:
+  - name: vm01
+    state: started
