@@ -2,8 +2,8 @@
 # main task for role execution
 
 - name: configure proxmox vm state
-  hosts: localhost
-  gather_facts: true
+  hosts: all
+  gather_facts: no
   become: true
   
   tasks:
