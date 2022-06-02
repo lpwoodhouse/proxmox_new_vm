@@ -10,7 +10,7 @@
     force: yes
     proxmox_default_behavior: no_defaults
     validate_certs: no
-  loop: "{{vm_guest}}
+  loop: "{{vm_guest}}"
   register: results
 
 - name: results
