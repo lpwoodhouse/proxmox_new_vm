@@ -10,4 +10,4 @@ proxmox_password: password
 # options for state: present,stopped,started,absent,restarted,current
 vm_guest:
   - name: vm01
-    state: started
+    state: current

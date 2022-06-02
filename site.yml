@@ -1,14 +1,14 @@
 ---
 # main task for role execution
 
-- name: configure automount shares on hosts
-  hosts: new_group,!localhost
+- name: configure proxmox vm state
+  hosts: localhost
   gather_facts: true
   become: true
   
   tasks:
   
-  - name: mount shares
+  - name: pve vm state
     include_role:
-      name: mount_shares
+      name: pve_vm_state
 
