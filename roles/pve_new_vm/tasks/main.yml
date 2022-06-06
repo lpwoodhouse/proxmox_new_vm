@@ -14,6 +14,7 @@
     state: present
     proxmox_default_behavior: no_defaults
     validate_certs: no
+    timeout: 500
   register: results
 
 - name: results
