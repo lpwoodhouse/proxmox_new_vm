@@ -10,7 +10,7 @@
     vmid: "{{vm_id}}"
     full: yes
     storage: "{{vm_storage}}"
-    clone: "{{vm_clone}"
+    clone: "{{vm_clone}}"
     state: present
     proxmox_default_behavior: no_defaults
     validate_certs: no
