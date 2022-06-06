@@ -7,7 +7,7 @@
     api_host: "{{proxmox_host}}"
     node: "{{proxmox_node}}"
     name: "{{vm_name}}"
-    vmid: "{{vm_id}}"
+    newid: "{{vm_id}}"
     full: yes
     storage: "{{vm_storage}}"
     clone: "{{vm_clone}}"
