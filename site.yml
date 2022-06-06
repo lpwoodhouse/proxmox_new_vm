@@ -1,14 +1,13 @@
 ---
 # main task for role execution
 
-- name: configure proxmox vm state
+- name: create a new vm in proxmox ve
   hosts: all
   gather_facts: no
   become: true
   
   tasks:
   
-  - name: pve vm state
+  - name: pve new vm
     include_role:
-      name: pve_vm_state
-
+      name: pve_new_vm

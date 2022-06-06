@@ -2,7 +2,7 @@
 
 ### Homelab Virtual Environment project
 
-Changes the state of virtual machine guests (eg stopped, restarted) on a ProxmoxVE host
+Creates a new virtual machine guests from a clone on a ProxmoxVE host
 
 ## Requirements
 
@@ -15,10 +15,7 @@ Available variables are listed below, along with default values (see ```defaults
 proxmox_host: 192.168.0.1
 proxmox_user: root@pam
 proxmox_password: password
-vm_guest:
-  - name: vm01
-    state: started
-  - ...etc...
+...etc...
 ```
 ## Dependencies
 
@@ -28,7 +25,7 @@ None
 ```yaml
     - hosts: localhost
       roles:
-        - pve_vm_state
+        - pve_new_vm
 ```
 
 ## License
