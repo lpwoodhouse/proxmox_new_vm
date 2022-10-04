@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This play is for createing new virtual machine guest(s) from a clone on a ProxmoxVE host
+This play is for creating new virtual machine guest(s) from a clone on a ProxmoxVE host
 
 ## Requirements
 
