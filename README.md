@@ -1,21 +1,28 @@
-# Ansible Role: pve_vm_state
+# Ansible Play: proxmox_new_vm
 
-### Homelab Virtual Environment project
+## Purpose
 
-Creates a new virtual machine guests from a clone on a ProxmoxVE host
+This play is for createing new virtual machine guest(s) from a clone on a ProxmoxVE host
 
 ## Requirements
 
-None
+community.general
 
 ## Role Variables
 
-Available variables are listed below, along with default values (see ```defaults/main.yml```)
+Default role variables for the pve_new_vm role are listed below (see ```defaults/main.yml```)
 ```shell
-proxmox_host: 192.168.0.1
-proxmox_user: root@pam
-proxmox_password: password
-...etc...
+# pve host credentials
+proxmox_host: <pve_host_ip_addr>
+proxmox_user: <root@pam>
+proxmox_password: <password>
+proxmox_node: <pve_node_name>
+
+# new vm variables
+vm_id: <100>
+vm_name: <new_vm_name>
+vm_clone: <template_name>
+vm_storage: <storage_name>
 ```
 ## Dependencies
 

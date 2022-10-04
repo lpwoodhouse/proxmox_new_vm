@@ -2,14 +2,14 @@
 # default variables for pve_vm_state
 
 # pve host credentials
-proxmox_host: 192.168.0.1
-proxmox_user: root@pam
-proxmox_password: password
-proxmox_node: pve
+proxmox_host: <pve_host_ip_addr>
+proxmox_user: <root@pam>
+proxmox_password: <password>
+proxmox_node: <pve_node_name>
 
 # new vm variables
-vm_id: 100
-vm_name: new_vm
-vm_clone: template_vm
-vm_storage: local
+vm_id: <100>
+vm_name: <new_vm_name>
+vm_clone: <template_name>
+vm_storage: <storage_name>
 
