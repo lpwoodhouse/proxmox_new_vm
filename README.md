@@ -1,4 +1,7 @@
-# Ansible Play: proxmox_new_vm
+# Ansible Playbook: proxmox_new_vm
+![GitHub last commit](https://img.shields.io/github/last-commit/lpwoodhouse/playbook_proxmox_new_vm)
+![GitHub repo file count](https://img.shields.io/github/directory-file-count/lpwoodhouse/playbook_proxmox_new_vm)
+![GitHub top language](https://img.shields.io/github/languages/top/lpwoodhouse/playbook_proxmox_new_vm)
 
 ## Purpose
 
@@ -37,8 +40,8 @@ None
 
 ## License
 
-MIT
+[![GitHub](https://img.shields.io/github/license/lpwoodhouse/playbook_proxmox_new_vm)](LICENSE)
 
 ## Author Information
 
-This role was created in 2022 by [Lee Woodhouse](https://www.leewoodhouse.com/)
+This playbook was created in 2022 by [Lee Woodhouse](https://www.leewoodhouse.com/)
