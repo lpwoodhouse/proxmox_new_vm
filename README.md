@@ -1,8 +1,10 @@
-# Ansible Playbook: proxmox_new_vm
-![GitHub last commit](https://img.shields.io/github/last-commit/lpwoodhouse/playbook_proxmox_new_vm)
-![GitHub repo file count](https://img.shields.io/github/directory-file-count/lpwoodhouse/playbook_proxmox_new_vm)
-![GitHub top language](https://img.shields.io/github/languages/top/lpwoodhouse/playbook_proxmox_new_vm)
-
+# Proxmox New VM Guest From Template
+![proxmox](https://img.shields.io/badge/-ProxmoxVE-grey?style=flat&logo=proxmox)
+[![playbook](https://img.shields.io/badge/Ansible-Playbook-blue)](site.yml)
+![GitHub last commit](https://img.shields.io/github/last-commit/lpwoodhouse/proxmox_new_vm)
+![GitHub repo file count](https://img.shields.io/github/directory-file-count/lpwoodhouse/proxmox_new_vm)
+![GitHub top language](https://img.shields.io/github/languages/top/lpwoodhouse/proxmox_new_vm)
+[![GitHub](https://img.shields.io/github/license/lpwoodhouse/proxmox_new_vm)](LICENSE)
 ## Purpose
 
 This play is for creating new virtual machine guest(s) from a clone on a ProxmoxVE host
@@ -37,10 +39,6 @@ None
       roles:
         - pve_new_vm
 ```
-
-## License
-
-[![GitHub](https://img.shields.io/github/license/lpwoodhouse/playbook_proxmox_new_vm)](LICENSE)
 
 ## Author Information
 
