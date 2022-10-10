@@ -1,6 +1,6 @@
 # Proxmox New VM Guest From Template
-![proxmox](https://img.shields.io/badge/-ProxmoxVE-grey?style=flat&logo=proxmox)
-[![playbook](https://img.shields.io/badge/Ansible-Playbook-blue)](site.yml)
+![proxmox](https://img.shields.io/badge/-ProxmoxVE-black?style=flat&logo=proxmox)
+[![playbook](https://img.shields.io/badge/Ansible%20Playbook-grey?stype=flat&logo=ansible&logoColor=EE0000)](site.yml)
 ![GitHub last commit](https://img.shields.io/github/last-commit/lpwoodhouse/proxmox_new_vm)
 ![GitHub repo file count](https://img.shields.io/github/directory-file-count/lpwoodhouse/proxmox_new_vm)
 ![GitHub top language](https://img.shields.io/github/languages/top/lpwoodhouse/proxmox_new_vm)
